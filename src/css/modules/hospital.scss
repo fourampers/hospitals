@@ -1,0 +1,90 @@
+.hospital__title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: $color-main
+}
+
+.btn.hospital__btn {
+  color: #fff;
+  background-color: #34495e;
+  border-color: #34495e;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.hospital__fas {
+  padding-right: 7px;
+}
+
+.hospital__control-panel {
+  padding-bottom: 20px;
+}
+
+.hospital__panel td {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.hospital__cell {
+  text-align: center;
+}
+
+.hospital__header {
+  background-color: $color-main;
+}
+
+.hospital__title-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hospital__card {
+  padding: 0;
+}
+
+.hospital__table {
+  margin-bottom: 0;
+  border: none;
+}
+
+.hospital__table_head {
+  margin-bottom: 10px;
+  background-color: #34495e;
+}
+
+.hospital__table_head tr th {
+  background-color: #34495e;
+  color: #fff;
+}
+
+.table-bordered thead th {
+  border-bottom: none
+}
+
+td.hospital-col-1 {
+  width: 40%;
+  //width: 443px;
+}
+
+td.hospital-col-2 {
+  width: 30%;
+  //width: 332px;
+}
+
+td.hospital-col-3 {
+  width: 30%;
+  //width: 332px;
+}
+
+.hospital__header td {
+  cursor: pointer;
+  vertical-align: middle;
+  color: white;
+}
+
+.table-hover tbody tr:hover td {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "hospitals",
+  "version": "1.0",
+  "description": "",
+  "license": "MIT License",
+  "keywords": "gulp",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "browser-sync": "*",
+    "es6-promise": "*",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-merge-media-queries": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
+  }
+}

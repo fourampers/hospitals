@@ -1,0 +1,11 @@
+@import "_vars";
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: $color-main;
+  color: white;
+}
